@@ -1,0 +1,19 @@
+{
+    "name": "Always Show PDF",
+    "version": "0.0.0.1",
+    "description": "Show PDFs in the browser instead of downloading. (Ignore the server’s wishes.)",
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+
+        "http://*/*",
+        "https://*/*"
+    ],
+
+    "manifest_version": 2
+}
